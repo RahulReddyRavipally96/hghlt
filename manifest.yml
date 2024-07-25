@@ -1,0 +1,7 @@
+applications:
+- name: sample
+  memory: 512M
+  instances: 1
+  path: .
+  buildpacks:
+  - python_buildpack
