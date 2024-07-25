@@ -119,4 +119,4 @@ def predict():
         return jsonify({'error': str(e)}), 500
 
 if __name__ == '__main__':
-    app.run(debug=True, host='0.0.0.0', port=5001)  # Change port if 5000 is in use
+    app.run(debug=True, host='0.0.0.0', port=8000)  # Change port if 5000 is in use
